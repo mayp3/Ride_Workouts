@@ -27,7 +27,7 @@ const MAP_LAYER_LIST = [
 // styling: set to `true` if you want dash-line route
 const USE_DASH_LINE = true;
 // styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.4;
+const LINE_OPACITY = 0.5;
 // styling: map height
 const MAP_HEIGHT = 600;
 //set to `false` if you want to hide the road label characters
@@ -109,13 +109,14 @@ const gold = 'rgb(242,190,69)';
 const purple = 'rgb(154,118,252)';
 const veryPeri = 'rgb(105,106,173)';//长春花蓝
 const red = 'rgb(255,0,0)';//大红色
+const blue = 'rgb(135,246,235)';//天蓝色
 
 // If your map has an offset please change this line
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
-export const MAIN_COLOR = green;
+export const MAIN_COLOR = yellow;
 export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
+export const RIDE_COLOR = cyan;
 export const VIRTUAL_RIDE_COLOR = veryPeri;
 export const HIKE_COLOR = pink;
 export const SWIM_COLOR = gold;
